@@ -1,5 +1,5 @@
 # Dockerfile ubuntu-perl-phatch
-FROM acdaic4v/ubuntu-perl-base:v2
+FROM acdaic4v/ubuntu-perl-redis:v1
 MAINTAINER sloervi McMurphy <docker@sloervi.de>
 # Pakete nachinstallieren
 RUN apt-get update && apt-get install -y phatch git
